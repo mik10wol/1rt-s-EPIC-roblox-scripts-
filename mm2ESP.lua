@@ -68,4 +68,38 @@ local function highlightGunDrop(model)
 		highlight.Name = "GunDropHighlight"
 		highlight.Adornee = gunDrop
 		highlight.FillColor = Color3.fromRGB(0, 255, 0)
-		highlight.OutlineColor = Color3.fromRGB(0, 255,
+		highlight.OutlineColor = Color3.fromRGB(0, 255, 0)
+		highlight.FillTransparency = 0.1
+		highlight.OutlineTransparency = 0
+		highlight.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
+		highlight.Parent = gunDrop
+
+		playAlert()
+	end
+end
+
+-- === Initial Pass on Existing Models ===
+
+for _, obj in pairs(Workspace:GetChildren()) do
+	if obj:IsA("Model") then
+		monitorModelForTools(obj)
+		highlightGunDrop(obj)
+	end
+end
+
+-- === Watch for New Models & Children ===
+
+Workspace.ChildAdded:Connect(function(obj)
+	if obj:IsA("Model") then
+		monitorModelForTools(obj)
+		highlightGunDrop(obj)
+
+		obj.ChildAdded:Connect(function(child)
+			if child.Name == "GunDrop" then
+				-- Add delay to ensure it's a BasePart and ready to highlight
+				task.wait(0.1)
+				highlightGunDrop(obj)
+			end
+		end)
+	end
+end)
