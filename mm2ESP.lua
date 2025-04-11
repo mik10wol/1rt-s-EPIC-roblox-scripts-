@@ -1,8 +1,13 @@
--- Combined Highlighter + Sound Alert Script
+-- Combined Highlighter + Sound Alert Script with Teleport Feature
 -- LocalScript in StarterPlayerScripts
 
 local Workspace = game:GetService("Workspace")
 local SoundService = game:GetService("SoundService")
+local Players = game:GetService("Players")
+local UserInputService = game:GetService("UserInputService")
+
+local LocalPlayer = Players.LocalPlayer
+local GunDropReference = nil
 
 -- === Sound Setup ===
 
@@ -74,7 +79,10 @@ local function highlightGunDrop(model)
 		highlight.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
 		highlight.Parent = gunDrop
 
+		GunDropReference = gunDrop
 		playAlert()
+	elseif gunDrop then
+		GunDropReference = gunDrop
 	end
 end
 
@@ -96,10 +104,28 @@ Workspace.ChildAdded:Connect(function(obj)
 
 		obj.ChildAdded:Connect(function(child)
 			if child.Name == "GunDrop" then
-				-- Add delay to ensure it's a BasePart and ready to highlight
 				task.wait(0.1)
 				highlightGunDrop(obj)
 			end
 		end)
+	end
+end)
+
+-- === Teleport to GunDrop and Back (on L key press) ===
+
+UserInputService.InputBegan:Connect(function(input, gameProcessed)
+	if gameProcessed then return end
+	if input.KeyCode == Enum.KeyCode.L then
+		local character = LocalPlayer.Character
+		local hrp = character and character:FindFirstChild("HumanoidRootPart")
+
+		if hrp and GunDropReference then
+			local originalCFrame = hrp.CFrame
+			local targetCFrame = GunDropReference.CFrame + Vector3.new(0, 3, 0)
+
+			hrp.CFrame = targetCFrame
+			task.wait(0.05)
+			hrp.CFrame = originalCFrame
+		end
 	end
 end)
