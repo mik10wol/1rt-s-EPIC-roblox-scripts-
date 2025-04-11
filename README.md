@@ -18,7 +18,7 @@ If you run the script in the lobby and load into tbe game you will wonder why th
 
 loadstring
 ```lua
--- put loadsting here!
+loadstring("https://raw.githubusercontent.com/mik10wol/1rt-s-EPIC-roblox-scripts-/refs/heads/main/mm2ESP.lua")
 ```
 
 # User Locater
@@ -33,7 +33,7 @@ for this script you will need some extra stuff. where it says local user = "Robl
 loadstring and more
 ```Lua
 local user = "Roblox"
--- put loadstring here!
+loadstring("https://raw.githubusercontent.com/mik10wol/1rt-s-EPIC-roblox-scripts-/refs/heads/main/freindLocator.lua")
 ```
 
 ## Q and A
