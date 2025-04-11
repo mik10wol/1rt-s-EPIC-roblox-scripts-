@@ -1,6 +1,6 @@
 # 1rt's EPIC roblox scripts!
 
-### FIND LOADSTRINGS HERE!!!
+### FIND SCRIPTS IN THE MAIN BRANCH!
 
 #### I DO NOT CONDONE/PROMOTE BREAKING ROBLOX TOS! I AM JUST HERE TO POVIDE SCRIPTS FOR STUDIO PURPOSES ;)
 
@@ -32,11 +32,8 @@ for this script you will need some extra stuff. where it says local user = "Robl
 ### i have an issue.
 use the issue feature if your stuck!
 
-## loadstrings are not working.
-type in chat /console of click F9 and see if there is an error that has something to do with HTTPS requests. if you find it: click the green code button on this site then click the zip icon then accsept the download and unzip your folder to a location. go to your 'roblox studio' and click run script or something like that and find the location of the script you want then run it and boom! (does not work for user locator)
-
 ## nothing happens when i load/run the scipt.
-type in chat /console of click F9 and see if there is an error that has something to do with HTTPS requests. if you find it do the above questions awnser. if you run the sript and there are no errors check your 'roblox studio' is up-to-date. if all fails go to the issue feature on gitub and say whats wrong.
+type in chat /console of click F9 and see if there is an error, if you run the sript and there are no errors check your 'roblox studio' is up-to-date. if all fails go to the issue feature on gitub and say whats wrong.
 
 ## i want to 'roblox studio' but i dont know where to start
 go to the https://wearedevs.net/d/JJSploit and download *__it__*, *__it__* may seem like a virus but this is by far one of the most safe *__ones__* out there.
