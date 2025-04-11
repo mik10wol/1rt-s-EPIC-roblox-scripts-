@@ -48,6 +48,6 @@ type in chat /console of click F9 and see if there is an error that has somethin
 type in chat /console of click F9 and see if there is an error that has something to do with HTTPS requests. if you find it do the above questions awnser. if you run the sript and there are no errors check your 'roblox studio' is up-to-date. if all fails go to the issue feature on gitub and say whats wrong.
 
 ## i want to 'roblox studio' but i dont know where to start
-go to the [we are devs]("https://wearedevs.net/d/JJSploit") and download *__it__*, *__it__* may seem like a virus but this is by far one of the most safe *__ones__* out there.
+go to the https://wearedevs.net/d/JJSploit and download *__it__*, *__it__* may seem like a virus but this is by far one of the most safe *__ones__* out there.
 
-put gif here.
+![20250411_122210](https://github.com/user-attachments/assets/fb8c6b11-2409-4753-a170-4cdf629d9741)
