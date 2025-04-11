@@ -9,6 +9,9 @@ local UserInputService = game:GetService("UserInputService")
 local LocalPlayer = Players.LocalPlayer
 local GunDropReference = nil
 
+-- === CONFIGURATION ===
+local highlightModel = true -- Set this to true to highlight the whole model instead of just torso
+
 -- === Sound Setup ===
 
 local function getOrCreateAlertSound()
@@ -34,7 +37,13 @@ end
 local function highlightToolHolder(model, toolName, color, highlightName, logPrefix)
 	if model:FindFirstChild(highlightName) then return end
 
-	local adornee = model:FindFirstChild("UpperTorso") or model:FindFirstChild("Torso") or model
+	local adornee
+	if highlightModel then
+		adornee = model
+	else
+		adornee = model:FindFirstChild("UpperTorso") or model:FindFirstChild("Torso") or model
+	end
+
 	if adornee then
 		print("[" .. logPrefix .. " Detected] Model:", model.Name)
 
