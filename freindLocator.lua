@@ -1,4 +1,6 @@
 -- Function to create a Highlight effect
+local user = "Roblox"
+
 local function createHighlight(model)
 	if model:IsA("Model") then
 		local highlight = Instance.new("Highlight")
