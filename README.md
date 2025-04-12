@@ -2,6 +2,8 @@
 
 ### FIND SCRIPTS IN THE MAIN BRANCH!
 
+#### THESE SCRIPTS ARE NON MOIBLE FREINDLY AND LOCAL (not FE)
+
 #### I DO NOT CONDONE/PROMOTE BREAKING ROBLOX TOS! I AM JUST HERE TO POVIDE SCRIPTS FOR STUDIO PURPOSES ;)
 
 Hello and welcome to my cool github page with roblox scripts on them! i have muntiple scripts for all purposes. on each script will be a documentation. (what i mean is a photo and what the script does). HAVE FUN!!!
@@ -14,7 +16,7 @@ Photo:
 
 ### PLEASE READ BLELOW BEFORE RUNNING!
 this script isnt instant but gets the job done and is extremly simple.
-If you run the script in the lobby and load into tbe game you will wonder why the player's are not hiligted yet. this is becuse mm2 does not have teams, so instead the script waits for a player to take out their tool (knife or gun) and then hilights them. the gun drop one is instant though. This script still runs if you die or others die so you only need to run it once!
+If you run the script in the lobby and load into tbe game you will wonder why the player's are not hiligted yet. this is becuse mm2 does not have teams, so instead the script waits for a player to take out their tool (knife or gun) and then hilights them. the gun drop one is instant though. This script still runs if you die or others die so you only need to run it once! Tip : you have a lower chance of being banned if you avoid causing a commotion!
 
 # User Locater
 
@@ -23,7 +25,7 @@ Photo:
 ![RobloxScreenShot20250411_100341146](https://github.com/user-attachments/assets/4687d328-0470-47c2-a482-bdcd22ebd584)
 
 ### PLEASE READ BLELOW BEFORE RUNNING!
-for this script you will need to copy and paste or download and edit. where it says local user = "Roblox". type in the "" your targets USERNAME!!! i cant stress this enough type in THE USERNAME NOT DISPLAYNAME! it also must be exact. the script will always be running even if you die or your target does.
+for this script you will need to copy and paste or download and edit. where it says local user = "Roblox". type in the "" your targets USERNAME!!! i cant stress this enough type in THE USERNAME NOT DISPLAYNAME! it also must be exact. the script will always be running even if you die or your target does. Tip : ESP lets you see targets through walls!
 
 # Block Placer
 
@@ -32,7 +34,14 @@ Example GIF:
 ![blockPlacerExample-crop](https://github.com/user-attachments/assets/2af596ba-c39b-4140-b0e1-963bb9671192)
 
 ### PLEASE READ BELOW BEFORE RUNNING!
-To place a block press l. the block will spawn where you are, wait 3 seconds for it to solidify.
+To place a block press l. the block will spawn where you are, wait 3 seconds for it to solidify. Tip : Use this to scale large hights!
+
+# Elevator Script
+
+ <sup>No grapical examples yet...</sup> come back at 5pm
+
+### PLEASE READ BELOW BEFORE RUNNING!
+To create an evevator, press p. To pause the elevator press p again. comes with a gui everything esle is self explanatory. Tip : This script is TOH proof! (since April 12, 2025.)
 
 ## Q and A
 
