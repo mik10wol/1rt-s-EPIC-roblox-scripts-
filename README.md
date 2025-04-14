@@ -41,7 +41,14 @@ To place a block press l. the block will spawn where you are, wait 3 seconds for
  <sup>No grapical examples yet...</sup> come back at 5pm
 
 ### PLEASE READ BELOW BEFORE RUNNING!
-To create an evevator, press p. To pause the elevator press p again. comes with a gui everything esle is self explanatory. Tip : This script is TOH proof! (since April 12, 2025.)
+To create an evevator, press p. To pause the elevator press p again. comes with a gui everything esle is self explanatory. Tip : This script is TOH anti-cheat proof! (since April 12, 2025.)
+
+# Crouch script (lowerHipHight)
+
+<sup>No grapical examples yet...</sup> come back at 5pm
+
+### PLEASE READ BELOW BEFORE RUNNING!
+THIS SCRIPT IS UNTESTED! (meaning it may have bugs or not work at all!) Press and hold U to lower your hip height (like crouching) and relese to reset!
 
 ## Q and A
 
