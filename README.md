@@ -16,7 +16,7 @@ Photo:
 
 ### PLEASE READ BLELOW BEFORE RUNNING!
 this script isnt instant but gets the job done and is extremly simple.
-If you run the script in the lobby and load into tbe game you will wonder why the player's are not hiligted yet. this is becuse mm2 does not have teams, so instead the script waits for a player to take out their tool (knife or gun) and then hilights them. the gun drop one is instant though. This script still runs if you die or others die so you only need to run it once! Tip : you have a lower chance of being banned if you avoid causing a commotion!
+If you run the script in the lobby and load into tbe game you will wonder why the player's are not hiligted yet. this is becuse mm2 does not have teams, so instead the script waits for a player to take out their tool (knife or gun) and then hilights them. the gun drop one is instant though. This script still runs if you die or others die so you only need to run it once! If you press l while the gun is dropped you will teleport to the gun for 0.1 seconds then return to your original position. allowing you to skip campers! Tip : you have a lower chance of being banned if you avoid causing a commotion!
 
 # User Locater
 
