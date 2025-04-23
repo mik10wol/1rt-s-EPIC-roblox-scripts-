@@ -1,5 +1,7 @@
 # 1rt's EPIC roblox scripts!
 
+![mini-me](https://github.com/user-attachments/assets/06ca1dc2-9fb6-4abc-a9a4-24049be57cf4)
+
 ### FIND SCRIPTS IN THE MAIN BRANCH!
 
 #### THESE SCRIPTS ARE NON MOIBLE FREINDLY AND LOCAL (not FE)
@@ -38,17 +40,17 @@ To place a block press l. the block will spawn where you are, wait 3 seconds for
 
 # Elevator Script
 
- <sup>No grapical examples yet...</sup> come back at 5pm
+ <sup>No grapical examples yet...</sup>
 
 ### PLEASE READ BELOW BEFORE RUNNING!
 To create an evevator, press p. To pause the elevator press p again. comes with a gui everything esle is self explanatory. Tip : This script is TOH anti-cheat proof! (since April 12, 2025.)
 
-# Crouch script (lowerHipHight)
+# Trip Script
 
-<sup>No grapical examples yet...</sup> come back at 5pm
+![trip-gifv2](https://github.com/user-attachments/assets/84d58227-588c-49bc-971b-1a703dd9db19)
 
 ### PLEASE READ BELOW BEFORE RUNNING!
-THIS SCRIPT IS UNTESTED! (meaning it may have bugs or not work at all!) Press and hold U to lower your hip height (like crouching) and relese to reset!
+Press B on you keybord to fall over, and press n to trip the player and fling you!
 
 ## Q and A
 
@@ -59,6 +61,7 @@ use the issue feature if your stuck!
 type in chat /console of click F9 and see if there is an error, if you run the sript and there are no errors check your 'roblox studio' is up-to-date. if all fails go to the issue feature on gitub and say whats wrong.
 
 ## i want to 'roblox studio' but i dont know where to start
+
 go to the https://wearedevs.net/d/JJSploit and download *__it__*, *__it__* may seem like a virus but this is by far one of the most safe *__ones__* out there.
 
 ![20250411_122210](https://github.com/user-attachments/assets/fb8c6b11-2409-4753-a170-4cdf629d9741)
