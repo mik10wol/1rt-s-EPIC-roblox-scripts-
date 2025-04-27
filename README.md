@@ -4,7 +4,8 @@
 
 ### FIND SCRIPTS IN THE MAIN BRANCH!
 
-#### THESE SCRIPTS ARE NON MOIBLE FREINDLY AND LOCAL (not FE)
+#### THESE SCRIPTS ARE (mostly) NON MOIBLE FREINDLY AND LOCAL (not FE)
+Look for the (MOIBLE FREINLDY) tag to find moible freindly stuff.
 
 #### I DO NOT CONDONE/PROMOTE BREAKING ROBLOX TOS! I AM JUST HERE TO POVIDE SCRIPTS FOR STUDIO PURPOSES ;)
 
@@ -51,6 +52,25 @@ To create an evevator, press p. To pause the elevator press p again. comes with 
 
 ### PLEASE READ BELOW BEFORE RUNNING!
 Press B on you keybord to fall over, and press n to trip the player and fling you!
+
+# music
+
+![RobloxScreenShot20250427_164720343](https://github.com/user-attachments/assets/6ddb658c-9bc1-4a6f-8551-5a48e31eaf4b)
+
+### PLEASE READ BELOW BEFORE RUNNING!
+Press l to open the menue (use image above as refrence.). Tip : Music must be of the creator store if you want it to play!
+
+# biggerjumpbutton (MOIBLE FREINLDY)
+
+![RobloxScreenShot20250427_164634215](https://github.com/user-attachments/assets/d7b183c1-3b67-43c6-b612-6b07e5857b7f)
+
+Just run the script and it makes the jump button bigger!
+
+# lil hampter (MOIBLE FREINLDY)
+
+![idle](https://github.com/user-attachments/assets/45eebf28-d7b3-4e17-b1ed-8033f9c88c5e)
+
+Adds a little hampster on your screen that can be dragged and does funny stuff every few seconds! Just a nice bit of company...
 
 ## Q and A
 
